@@ -21,6 +21,9 @@
 # External apps on SD
 TARGET_EXTERNAL_APPS = sdcard1
 
+# Default toolchain
+TARGET_GCC_VERSION_EXP := 4.8
+
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_lte_defconfig
 #TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
