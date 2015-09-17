@@ -29,6 +29,12 @@ PRODUCT_NAME := cm_meliusltexx
 PRODUCT_MODEL := GT-I9205
 PRODUCT_MANUFACTURER := samsung
 
+# OTA
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.ota.romname=cm-melius \
+ro.ota.version=$(shell date +%F | sed s@-@@g) \
+ro.ota.manifest=https://dl.dropboxusercontent.com/s/jo7l4s7ojuht4y8/cm-melius.xml?dl=1
+
 # override
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="meliusltexx-user 4.4.2 KOT49H I9205XXUDNE4 release-keys" \
