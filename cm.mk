@@ -33,7 +33,7 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.ota.romname=cm-melius \
 ro.ota.version=$(shell date +%F | sed s@-@@g) \
-ro.ota.manifest=https://dl.dropboxusercontent.com/s/jo7l4s7ojuht4y8/cm-melius.xml?dl=1
+ro.ota.manifest=http://sileshn.github.io/cm/cm-melius.xml
 
 # override
 PRODUCT_BUILD_PROP_OVERRIDES += \
