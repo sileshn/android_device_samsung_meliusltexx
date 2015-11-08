@@ -18,6 +18,9 @@
 # External apps on SD
 TARGET_EXTERNAL_APPS = sdcard1
 
+# Block Based OTA
+#BLOCK_BASED_OTA := false
+
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_lte_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
