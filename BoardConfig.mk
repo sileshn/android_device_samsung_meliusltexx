@@ -15,9 +15,6 @@
 # Inherit from melius-common
 -include device/samsung/melius-common/BoardConfigCommon.mk
 
-# External apps on SD
-TARGET_EXTERNAL_APPS = sdcard1
-
 # Block Based OTA
 #BLOCK_BASED_OTA := false
 
