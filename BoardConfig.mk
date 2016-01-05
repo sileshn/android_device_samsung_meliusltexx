@@ -20,7 +20,10 @@
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_lte_defconfig
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
+
+# Default Toolchain
+TARGET_GCC_VERSION_EXP := 4.9-linaro
+TARGET_LEGACY_GCC_VERSION := 4.9-linaro
 
 # NFC
 BOARD_HAVE_NFC := true
