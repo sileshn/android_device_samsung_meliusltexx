@@ -31,9 +31,7 @@ PRODUCT_MANUFACTURER := samsung
 
 # OTA
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.ota.romname=cm13-melius \
-ro.ota.version=$(shell date +%F | sed s@-@@g) \
-ro.ota.manifest=http://sileshn.github.io/cm13/cm13-melius.xml
+    ro.rom.device=cm
 
 # override
 PRODUCT_BUILD_PROP_OVERRIDES += \
