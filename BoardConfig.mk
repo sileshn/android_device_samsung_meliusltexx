@@ -15,9 +15,6 @@
 # Inherit from melius-common
 -include device/samsung/melius-common/BoardConfigCommon.mk
 
-# Block Based OTA
-#BLOCK_BASED_OTA := false
-
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_lte_defconfig
 
