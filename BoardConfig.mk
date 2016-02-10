@@ -27,7 +27,3 @@ TARGET_LEGACY_GCC_VERSION := 4.9-linaro
 
 # NFC
 BOARD_HAVE_NFC := true
-
-# Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/meliusltexx/init/init_meliuslte.cpp
