@@ -25,5 +25,8 @@ TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,melius3g,melius3gxx
 TARGET_GCC_VERSION_EXP := 4.9-linaro
 TARGET_LEGACY_GCC_VERSION := 4.9-linaro
 
+# JAVA8 Support
+EXPERIMENTAL_USE_JAVA8 := true
+
 # NFC
 BOARD_HAVE_NFC := true
