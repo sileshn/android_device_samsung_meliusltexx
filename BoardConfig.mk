@@ -21,5 +21,9 @@ TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_lte_defconfig
 # Assert
 TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,melius3g,melius3gxx
 
+# Default Toolchain
+TARGET_GCC_VERSION_EXP := 4.9-uber
+TARGET_LEGACY_GCC_VERSION := 4.9-uber
+
 # NFC
 BOARD_HAVE_NFC := true
