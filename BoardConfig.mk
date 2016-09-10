@@ -23,3 +23,8 @@ TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,melius3g,melius3gxx
 
 # NFC
 BOARD_HAVE_NFC := true
+
+# Vendor Init
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_melius
+TARGET_RECOVERY_DEVICE_MODULES := libinit_melius
