@@ -24,9 +24,6 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Also get non-open-source specific aspects
-$(call inherit-product, vendor/samsung/melius-common/melius-common-vendor.mk)
-
 PRODUCT_NAME := cm_meliusltexx
 PRODUCT_DEVICE := meliusltexx
 PRODUCT_BRAND := samsung
