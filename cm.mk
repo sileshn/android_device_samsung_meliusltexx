@@ -24,6 +24,10 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
+# OTA
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.rom.device=cm14
+
 PRODUCT_NAME := cm_meliusltexx
 PRODUCT_DEVICE := meliusltexx
 PRODUCT_BRAND := samsung
