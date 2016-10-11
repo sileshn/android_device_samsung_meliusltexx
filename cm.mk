@@ -32,5 +32,3 @@ PRODUCT_NAME := cm_meliusltexx
 PRODUCT_DEVICE := meliusltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
-
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=meliusltexx TARGET_DEVICE=meliuslte
