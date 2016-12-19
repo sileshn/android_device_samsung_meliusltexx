@@ -21,9 +21,8 @@ $(call inherit-product, device/samsung/meliusltexx/device.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# OTA
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.rom.device=cm14
+# BUILD TYPE
+RR_BUILDTYPE := official
 
 PRODUCT_NAME := cm_meliusltexx
 PRODUCT_DEVICE := meliusltexx
