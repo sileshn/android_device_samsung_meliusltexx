@@ -19,7 +19,7 @@
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_lte_defconfig
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,meliusltecan,meliusltespr,melius3g,melius3gxx,melius3gzm
+TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,meliusltecan,meliusltespr,melius3g,melius3gxx,melius3gzm,meliuslteMetroPCS
 
 # NFC
 BOARD_HAVE_NFC := true

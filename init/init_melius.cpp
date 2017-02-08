@@ -80,6 +80,12 @@ void vendor_load_properties()
         property_set("ro.build.description", "meliusltevl-user 4.2.2 JDQ39 I527MVLUBNA3 release-keys");
         property_set("ro.product.model", "SGH-I527M");
         property_set("ro.product.device", "meliusltecan");
+    } else if ((strstr(bootloader, "M819N")) || (strstr(bootloader, "M819NUVUBNI5"))) {
+        /* meliuslteMetroPCS */
+        property_set("ro.build.fingerprint", "samsung/meliuslteMetroPCS/meliuslteMetroPCS:4.2.2/JDQ39/M819NUVUAMK7:user/release-keys");
+        property_set("ro.build.description", "meliuslteMetroPCS-user 4.2.2 JDQ39 M819NUVUAMK7 release-keys");
+        property_set("ro.product.model", "SGH-M819N");
+        property_set("ro.product.device", "meliuslteMetroPCS");
     }
 
     property_get("ro.product.device", device, NULL);
