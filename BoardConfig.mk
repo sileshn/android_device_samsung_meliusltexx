@@ -24,6 +24,9 @@ TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,meliusltecan,meliusltespr,meli
 # NFC
 BOARD_HAVE_NFC := true
 
+# Lights
+TARGET_PROVIDES_LIBLIGHT := true
+
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_melius
