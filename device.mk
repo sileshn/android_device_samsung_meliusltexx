@@ -15,7 +15,7 @@
 
 # Inherit from melius-common
 $(call inherit-product, device/samsung/melius-common/melius-common.mk)
-$(call inherit-product, device/samsung/melius-common/nfc.mk)
+#$(call inherit-product, device/samsung/melius-common/nfc.mk)
 
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/meliusltexx/overlay
