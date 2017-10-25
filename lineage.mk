@@ -22,9 +22,6 @@ $(call inherit-product, device/samsung/meliusltexx/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# BUILD TYPE
-RR_BUILDTYPE := official
-
 PRODUCT_NAME := lineage_meliusltexx
 PRODUCT_DEVICE := meliusltexx
 PRODUCT_BRAND := samsung
