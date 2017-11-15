@@ -33,3 +33,8 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_melius
 
 # TWRP
 WITH_TWRP := true
+
+# FM radio
+PRODUCT_PACKAGES += \
+    FM2 \
+    qcom.fmradio
