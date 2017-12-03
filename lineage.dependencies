@@ -2,26 +2,26 @@
   {
     "repository": "android_device_samsung_qcom-common",
     "target_path": "device/samsung/qcom-common",
-    "revision":"cm-14.1"
+    "revision":"lineage-15.0"
   },
   {
     "repository": "android_device_qcom_common",
     "target_path": "device/qcom/common",
-    "revision":"cm-14.1"
+    "revision":"lineage-15.0"
   },
   {
     "repository": "android_device_samsung_melius-common",
     "target_path": "device/samsung/melius-common",
-    "revision":"cm-14.1"
+    "revision":"lineage-15.0"
   },
   {
     "repository": "android_kernel_samsung_msm8930-common",
     "target_path": "kernel/samsung/msm8930-common",
-    "revision":"cm-14.1"
+    "revision":"lineage-15.0"
   },
   {
     "repository": "android_external_stlport",
     "target_path": "external/stlport",
-    "revision":"cm-14.1"
+    "revision":"lineage-15.0"
   }
 ]
