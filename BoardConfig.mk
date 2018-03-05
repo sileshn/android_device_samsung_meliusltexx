@@ -21,9 +21,6 @@ TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_lte_defconfig
 # Assert
 TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,meliusltecan,meliusltespr,melius3g,melius3gxx,melius3gzm,meliuslteMetroPCS
 
-# Lights
-TARGET_PROVIDES_LIBLIGHT := true
-
 # Vendor Init
 TARGET_INIT_VENDOR_LIB := libinit_melius
 TARGET_RECOVERY_DEVICE_MODULES := libinit_melius
