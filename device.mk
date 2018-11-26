@@ -20,6 +20,10 @@ $(call inherit-product, device/samsung/melius-common/nfc.mk)
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/meliusltexx/overlay
 
+# OTA
+PRODUCT_PACKAGES += \
+    Updates
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml
