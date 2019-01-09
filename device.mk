@@ -17,6 +17,9 @@
 $(call inherit-product, device/samsung/melius-common/melius-common.mk)
 $(call inherit-product, device/samsung/melius-common/nfc.mk)
 
+# Also get non-open-source specific aspects
+$(call inherit-product, vendor/samsung/meliusltexx/meliusltexx-vendor.mk)
+
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/meliusltexx/overlay
 
