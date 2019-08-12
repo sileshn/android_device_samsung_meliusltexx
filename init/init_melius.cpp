@@ -74,36 +74,42 @@ void vendor_load_properties()
         property_override("ro.build.description", "melius3gxx-user 4.4.2 KOT49H I9200XXUDNE4 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "GT-I9200");
         property_override_dual("ro.product.device", "ro.vendor.product.device", "melius3gxx");
+		property_override("ro.build.product", "melius3gxx");
     } else if (strstr(bootloader, "I9208")) {
         /* melius3gzm */
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/melius3gzm/melius3g:4.2.2/JDQ39/I9208ZMUCNB2:user/release-keys");
         property_override("ro.build.description", "melius3gzm-user 4.2.2 JDQ39 I9208ZMUCNB2 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "GT-I9208");
         property_override_dual("ro.product.device", "ro.vendor.product.device", "melius3gzm");
+		property_override("ro.build.product", "melius3gzm");
     } else if (strstr(bootloader, "I9205")) {
         /* meliusltexx */
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/meliusltexx/meliuslte:4.4.2/KOT49H/I9205XXUDNE4:user/release-keys");
         property_override("ro.build.description", "meliusltexx-user 4.4.2 KOT49H I9205XXUDNE4 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "GT-I9205");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "meliusltexx");
+        property_override_dual("ro.product.device", "ro.vendor.product.device", "meliuslte");
+		property_override("ro.build.product", "meliuslte");
     } else if (strstr(bootloader, "L600")) {
         /* meliusltespr */
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/meliusltespr/meliusltespr:4.4.2/KOT49H/L600VPUBOH1:user/release-keys");
         property_override("ro.build.description", "meliusltespr-user 4.4.2 KOT49H L600VPUBOH1 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "SPH-L600");
         property_override_dual("ro.product.device", "ro.vendor.product.device","meliusltespr");
+		property_override("ro.build.product", "meliusltespr");
     } else if (strstr(bootloader, "I527M")) {
         /* meliusltecan */
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/meliusltevl/meliusltecan:4.2.2/JDQ39/I527MVLUBNA3:user/release-keys");
         property_override("ro.build.description", "meliusltevl-user 4.2.2 JDQ39 I527MVLUBNA3 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "SGH-I527M");
         property_override_dual("ro.product.device", "ro.vendor.product.device", "meliusltecan");
+		property_override("ro.build.product", "meliusltecan");
     } else if ((strstr(bootloader, "M819N")) || (strstr(bootloader, "M819NUVUBNI5"))) {
         /* meliuslteMetroPCS */
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/meliuslteMetroPCS/meliuslteMetroPCS:4.2.2/JDQ39/M819NUVUAMK7:user/release-keys");
         property_override("ro.build.description", "meliuslteMetroPCS-user 4.2.2 JDQ39 M819NUVUAMK7 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "SGH-M819N");
         property_override_dual("ro.product.device", "ro.vendor.product.device", "meliuslteMetroPCS");
+		property_override("ro.build.product", "meliuslteMetroPCS");
     }
 
     property_get("ro.product.device", device, NULL);
