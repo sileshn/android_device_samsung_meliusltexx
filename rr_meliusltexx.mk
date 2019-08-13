@@ -26,9 +26,11 @@ PRODUCT_NAME := rr_meliusltexx
 PRODUCT_DEVICE := meliusltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MODEL := GT-I9205
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=serranoltexx \
+    PRODUCT_NAME=meliusltexx \
+    TARGET_DEVICE=meliuslte \
     PRIVATE_BUILD_DESC="meliusltexx-user 4.4.2 KOT49H I9205XXUDNE4 release-keys"
 
 BUILD_FINGERPRINT := "samsung/meliusltexx/meliuslte:4.4.2/KOT49H/I9205XXUDNE4:user/release-keys"
