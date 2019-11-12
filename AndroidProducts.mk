@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aokp_meliusltexx.mk
+    $(LOCAL_DIR)/lineage_meliusltexx.mk
