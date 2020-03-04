@@ -13,11 +13,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+COMMON_PATH        := device/samsung/melius-common
+COMMON_VENDOR_PATH := vendor/samsung/melius-common
+DEVICE_PATH        := device/samsung/meliusltexx
+DEVICE_VENDOR_PATH := vendor/samsung/meliusltexx
+PLATFORM_PATH      := device/samsung/msm8930-common
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from meliusltexx device
-$(call inherit-product, device/samsung/meliusltexx/device.mk)
+$(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)

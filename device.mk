@@ -14,14 +14,14 @@
 #
 
 # Inherit from melius-common
-$(call inherit-product, device/samsung/melius-common/melius-common.mk)
-$(call inherit-product, device/samsung/melius-common/nfc.mk)
+$(call inherit-product, $(COMMON_PATH)/melius-common.mk)
+$(call inherit-product, $(COMMON_PATH)/nfc.mk)
 
 # Also get non-open-source specific aspects
-$(call inherit-product, vendor/samsung/meliusltexx/meliusltexx-vendor.mk)
+$(call inherit-product, $(DEVICE_VENDOR_PATH)/meliusltexx-vendor.mk)
 
 # Device overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/meliusltexx/overlay
+DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
