@@ -1,1 +1,1 @@
-add_lunch_combo lineage_meliusltexx-userdebug
+add_lunch_combo rr_meliusltexx-userdebug

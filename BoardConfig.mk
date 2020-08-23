@@ -27,3 +27,6 @@ TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,meliusltecan,meliusltespr,meli
 # Vendor Init
 TARGET_INIT_VENDOR_LIB := libinit_melius
 TARGET_RECOVERY_DEVICE_MODULES := libinit_melius
+
+# Faceunlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
