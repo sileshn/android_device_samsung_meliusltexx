@@ -26,3 +26,6 @@ TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,meliusltecan,meliusltespr,meli
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
+
+# Faceunlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
