@@ -18,9 +18,6 @@
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_lte_defconfig
 
-# Manifest
-DEVICE_MANIFEST_FILE += device/samsung/meliusltexx/manifest.xml
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,meliusltecan,meliusltespr,melius3g,melius3gxx,melius3gzm,meliuslteMetroPCS
 
