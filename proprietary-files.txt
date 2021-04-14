@@ -1,10 +1,13 @@
 # Add device specific blobs here
 
-# Radio
-vendor/lib/libril-qc-qmi-1.so
-
 # Audio
 vendor/lib/libaudcal.so
+
+# Faceunlock
+system/lib/libFaceDetectCA.so
+system/lib/libmegface.so
+system/lib/libMegviiUnlock.so
+system/lib/libMegviiUnlock-jni-1.2.so
 
 # GPS
 vendor/lib/libloc_api_v02.so
@@ -12,3 +15,6 @@ vendor/lib/libloc_api_v02.so
 # NFC firmware
 vendor/firmware/bcm2079xB4_firmware.ncd
 vendor/firmware/bcm2079xB4_pre_firmware.ncd
+
+# Radio
+vendor/lib/libril-qc-qmi-1.so
