@@ -19,8 +19,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from meliusltexx device
 $(call inherit-product, device/samsung/meliusltexx/device.mk)
 
+# inherit vendor e
+$(call inherit-product, vendor/e/config/common.mk)
+
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_mini_go_phone.mk)
+
+# Eos
+MINIMAL_APPS := true
+TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_NAME := lineage_meliusltexx
 PRODUCT_DEVICE := meliusltexx

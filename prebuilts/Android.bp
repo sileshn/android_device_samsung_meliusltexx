@@ -1,0 +1,45 @@
+android_app_import {
+	name: "MotoCalculator",
+	apk: "MotoCalculator/MotoCalculator.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+    overrides: ["ExactCalculator" , "CalculatorGooglePrebuilt"],
+}
+
+android_app_import {
+	name: "QuickPic",
+	apk: "QuickPic/QuickPic.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["Gallery2"],
+}
+
+android_app_import {
+	name: "ShadyQuickStep",
+	apk: "ShadyQuickStep/ShadyQuickStep.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+	overrides: ["BlissLauncher" , "TrebuchetQuickStep" , "TrebuchetQuickStepGo"],
+}
+
+android_app_import {
+    name: "ViaBrowser",
+    dex_preopt: {
+        enabled: false,
+    },
+    apk: "ViaBrowser/ViaBrowser.apk",
+    presigned: true,
+    overrides: ["Browser" , "Jelly"],
+}

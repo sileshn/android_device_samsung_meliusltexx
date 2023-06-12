@@ -26,4 +26,19 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/meliusltexx/overlay
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml
+	
+# Additional apps
+PRODUCT_PACKAGES += \
+    ViaBrowser \
+    MotoCalculator \
+    QuickPic \
+    ShadyQuickStep \
+    ShadyRecentsProvider
+	
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/ShadyQuickStep/etc/permissions/privapp-permissions-shady-launcher.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-shady-launcher.xml
+	
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 

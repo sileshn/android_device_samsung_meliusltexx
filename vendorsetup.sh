@@ -1,0 +1,5 @@
+export EOS_DEVICE=meliusltexx
+export EOS_USE_CCACHE=yes
+export EOS_SIGNATURE_SPOOFING=yes
+export EOS_BRANCH_NAME=v1-r
+export EOS_RELEASE_TYPE=UNOFFICIAL
